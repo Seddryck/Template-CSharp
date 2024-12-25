@@ -59,9 +59,9 @@ build_script:
 test_script:
 - pwsh: |
     $ErrorActionPreference = "Stop"
-    dotnet test testing/$TemplateNamePascalCase$.Core.Testing -c Release /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Include="[$TemplateNamePascalCase$.Core]*" /p:Threshold=80 /p:ThresholdType=line /p:CoverletOutput=../.coverage/coverage.$TemplateNamePascalCase$.Core.xml --test-adapter-path:. --logger:Appveyor --no-build --nologo
+    dotnet test src/$TemplateNamePascalCase$.Core.Testing -c Release /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Include="[$TemplateNamePascalCase$.Core]*" /p:Threshold=80 /p:ThresholdType=line /p:CoverletOutput=../.coverage/coverage.$TemplateNamePascalCase$.Core.xml --test-adapter-path:. --logger:Appveyor --no-build --nologo
     $globalTestResult = $LastExitCode
-    dotnet test testing/$TemplateNamePascalCase$.Cli.Testing -c Release /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Include="$TemplateNamePascalCase$.Cli" /p:Threshold=10 /p:ThresholdType=line /p:CoverletOutput=../.coverage/coverage.$TemplateNamePascalCase$.Cli.xml --test-adapter-path:. --logger:Appveyor --no-build --nologo
+    dotnet test src/$TemplateNamePascalCase$.Cli.Testing -c Release /p:CollectCoverage=true /p:CoverletOutputFormat=opencover /p:Include="$TemplateNamePascalCase$.Cli" /p:Threshold=10 /p:ThresholdType=line /p:CoverletOutput=../.coverage/coverage.$TemplateNamePascalCase$.Cli.xml --test-adapter-path:. --logger:Appveyor --no-build --nologo
     $globalTestResult = $LastExitCode
     if($globalTestResult -ne 0) { $host.SetShouldExit($globalTestResult) }
 
