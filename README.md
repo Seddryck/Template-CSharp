@@ -19,7 +19,7 @@ Transform your structured YAML, JSON, XML, CSV or FrontMatter data into beautifu
 [![nuget](https://img.shields.io/nuget/v/$TemplateNamePascalCase$-cli.svg)](https://www.nuget.org/packages/$TemplateNamePascalCase$-cli/) [![Docker Image Version](https://img.shields.io/docker/v/seddryck/$TemplateNameCamelCase$?label=docker%20hub&color=0db7ed)](https://hub.docker.com/repository/docker/seddryck/$TemplateNameCamelCase$/) [![GitHub Release Date](https://img.shields.io/github/release-date/seddryck/$TemplateNamePascalCase$.svg)](https://github.com/Seddryck/$TemplateNamePascalCase$/releases/latest) [![licence badge](https://img.shields.io/badge/License-Apache%202.0-yellow.svg)](https://github.com/Seddryck/$TemplateNamePascalCase$/blob/master/LICENSE) 
 
 **Dev. activity:** [![GitHub last commit](https://img.shields.io/github/last-commit/Seddryck/$TemplateNamePascalCase$.svg)](https://github.com/Seddryck/$TemplateNamePascalCase$/commits)
-![Still maintained](https://img.shields.io/maintenance/yes/2024.svg)
+![Still maintained](https://img.shields.io/maintenance/yes/2025.svg)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Seddryck/$TemplateNamePascalCase$)
 
 **Continuous integration builds:** [![Build status](https://ci.appveyor.com/api/projects/status/na3dklqjsuv1lbfv?svg=true)](https://ci.appveyor.com/project/Seddryck/$TemplateNamePascalCase$/)
