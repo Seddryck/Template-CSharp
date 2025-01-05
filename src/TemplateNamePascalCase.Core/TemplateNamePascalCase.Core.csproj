@@ -1,14 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-  </ItemGroup>
-  <ItemGroup>
-      <PackageReference Include="System.Private.Uri" Version="4.3.2" />
-  </ItemGroup>
-
 </Project>
